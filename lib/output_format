@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#- Formatierungen fuer Console-Ausgaben. -#
+
+red="\033[31m"		red_bg="\033[41m"    
+green="\033[32m"	green_bg="\033[42m"    
+yellow="\033[33m"	yellow_bg="\033[43m"
+blue="\033[34m"		blue_bg="\033[44m"
+magenta="\033[35m"	magenta_bg="\033[45m"
+ende="\033[0m\n" 	
+ende1="\033[0m" 
+withe_normal="\033[34m"
