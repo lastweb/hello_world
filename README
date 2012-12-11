@@ -2,3 +2,4 @@
         document.write(window.location.href);
 </script>
 "_01-Newsletter_"
+[![Travis Status](https://secure.travis-ci.org/slash-lang/slash.png)](http://travis-ci.org/slash-lang/slash)
