@@ -1,1 +1,11 @@
 [![Travis Status](https://secure.travis-ci.org/slash-lang/slash.png)](http://travis-ci.org/slash-lang/slash)
+
+var myTemplate = Template.create({
+   template : "<p>#{foo}<p><i>#{bar.baz}</i>",
+   pattern :  /#\{([a-zA-Z0-9-_.]*)\}/g,
+   defaults : {
+     bar : { 
+       baz : "foo"
+     }
+   }
+ })
